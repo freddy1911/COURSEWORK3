@@ -1,0 +1,93 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:10] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:posts:Post with name
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:12] "GET /authors/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:posts:Posts with PK
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:14] "GET /posts/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:17] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:23] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:26] "GET /bookmarks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:26] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:26] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:26] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "[32mGET /bookmarks/remove/1 HTTP/1.1[0m" 302 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:27] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:29] "GET /bookmarks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:posts:Main page start
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2022 02:57:32] "GET /favicon.ico HTTP/1.1" 200 -
